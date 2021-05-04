@@ -19,7 +19,7 @@ workingArticleButton.onclick = function (event) {
     event.preventDefault();
 
     for (var i = 0; i < articlesArray.lenght; i++) {
-        console.log(articlesArray[i]);
+       articleCount++;
 
         var articleDiv = document.createElement('div');
         articleDiv.className = 'article';
@@ -36,6 +36,6 @@ workingArticleButton.onclick = function (event) {
 
         articleContainer.append(articleDiv)
     }
-    
+
 }
 
