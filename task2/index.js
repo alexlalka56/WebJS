@@ -19,6 +19,11 @@ workingArticleButton.onclick = function (event) {
 
     for (var i = 0; i< articlesArray.lenght; i++){
         console.log(articlesArray[i]);
+
+        var articleDiv = document.createElement('div');
+        articleDiv.className = 'article;';
+
+        articleDiv.innerHTML = ``;
     }
 }
 
