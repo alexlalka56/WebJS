@@ -1,4 +1,5 @@
 var workingArticleButton = document.getElementById('working-article-button')
+var articleContainer = document.getElementById('article-container')
 var articleCount = 0;
 var articlesArray = [
     {
@@ -29,9 +30,12 @@ workingArticleButton.onclick = function (event) {
         articleTitle = articleTitle.replace("#", `#${articleCount}`);
         articleText = articleText.replace("#", `#${articleCount}`);
         articleDiv.innerHTML = `
-        <h4>${articleTitle}</h3>
+        <h4>${articleTitle}</h4>
         <p>${articleText}</p>
         `;
+
+        articleContainer.append(articleDiv)
     }
+    
 }
 
