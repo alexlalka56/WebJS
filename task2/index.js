@@ -1,3 +1,5 @@
+var workingArticleButton = document.getElementById('working-article-button')
+
 var articlesArray = [
     {
         title: 'Working Article #',
