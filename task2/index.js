@@ -1,5 +1,5 @@
 var workingArticleButton = document.getElementById('working-article-button')
-
+var articleCount = 0;
 var articlesArray = [
     {
         title: 'Working Article #',
@@ -23,7 +23,15 @@ workingArticleButton.onclick = function (event) {
         var articleDiv = document.createElement('div');
         articleDiv.className = 'article';
 
-        articleDiv.innerHTML = ``;
+        var articleTitle = articlesArray[i].title;
+        var articleText = articlesArray[i].text;
+
+        articleTitle = articleTitle.replace("#", `#${articleCount}`);
+        articleText = articleText.replace("#", `#${articleCount}`);
+        articleDiv.innerHTML = `
+        <h4>${articleTitle}</h3>
+        <p>${articleText}</p>
+        `;
     }
 }
 
