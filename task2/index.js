@@ -17,11 +17,11 @@ var articlesArray = [
 workingArticleButton.onclick = function (event) {
     event.preventDefault();
 
-    for (var i = 0; i< articlesArray.lenght; i++){
+    for (var i = 0; i < articlesArray.lenght; i++) {
         console.log(articlesArray[i]);
 
         var articleDiv = document.createElement('div');
-        articleDiv.className = 'article;';
+        articleDiv.className = 'article';
 
         articleDiv.innerHTML = ``;
     }
