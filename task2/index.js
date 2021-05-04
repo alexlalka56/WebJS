@@ -18,7 +18,7 @@ var articlesArray = [
 workingArticleButton.onclick = function (event) {
     event.preventDefault();
 
-    for (var i = 0; i < articlesArray.lenght; i++) {
+    for (var i = 0; i < articlesArray.length; i++) {
        articleCount++;
 
         var articleDiv = document.createElement('div');
