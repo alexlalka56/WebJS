@@ -16,4 +16,9 @@ var articlesArray = [
 ]
 workingArticleButton.onclick = function (event) {
     event.preventDefault();
+
+    for (var i = 0; i< articlesArray.lenght; i++){
+        console.log[i];
+    }
 }
+
