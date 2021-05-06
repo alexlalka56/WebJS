@@ -1,0 +1,22 @@
+.nav{
+background-color:#ff8040 ;
+height: 100px;
+}
+.container{
+display: flex;    
+}
+.first{
+    height: 300px;
+    margin: 10px;
+background-color:#008000;
+flex-grow: 1;
+}
+.second{
+background-color: #808040;
+}
+.second p{
+    background-color: #0080ff;
+}
+.second ul{
+    background-color: #800080;
+}
