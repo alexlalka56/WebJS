@@ -1,0 +1,10 @@
+git fetch - обновить инфо про репозиторий
+git pull origin branch_name - скачать последние изменение ветки
+git push origin branch_name - загрузить изменение в ветку
+git checkout -b new_branch - создать новую ветку
+git checkout -- file_name - отменить незаиндексированые изменение
+git status - проверка состояния файлов- инфо об изменениях
+git add . - добавить все файлы в индекс
+git commit -m "commit_message" - закомитить файлы в индексе
+git commit -am "c_m" - добавить файлы в индекс и закомитить
+git diff - показать изменение в файлах
