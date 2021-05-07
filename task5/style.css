@@ -1,22 +1,27 @@
-.nav{
-background-color:#ff8040 ;
-height: 100px;
+.nav {
+    background-color: #ff8040;
+    height: 100px;
 }
-.container{
-display: flex;    
+
+.container {
+    display: flex;
 }
-.first{
+
+.first {
     height: 300px;
     margin: 10px;
-background-color:#008000;
-flex-grow: 1;
+    background-color: #008000;
+    flex-grow: 1;
 }
-.second{
-background-color: #808040;
+
+.second {
+    background-color: #808040;
 }
-.second p{
+
+.second p {
     background-color: #0080ff;
 }
-.second ul{
+
+.second ul {
     background-color: #800080;
 }
