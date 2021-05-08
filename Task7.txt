@@ -1,0 +1,9 @@
+1. make branch task7 from task6 branch
+2.review index.html and write all tags in text file
+3.for tags write what attributes this tags have
+4.review style.css and write all properties in text file
+5.for properties describe what is properties and what this do with element
+6.using tags what have text file and using css properties create new html file and make 5 blocks(5 блоков всего(можно больше))
+who will be have at least 3  different class(main,second,third)
+7.for this blocks using this class for every class make different styles
+
