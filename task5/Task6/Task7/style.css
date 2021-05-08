@@ -1,0 +1,45 @@
+ul {
+    margin: 0;
+    background: white;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    flex-basis: auto;
+    flex-grow: 1;
+    height: 100px;
+    max-width: 100%;
+}
+
+.main.blue-bg.margin-5 {
+    background-color: blue;
+    margin: 5%;
+    flex-grow: 1;
+}
+
+.main.black-bg.padding-10 {
+    padding: 10px;
+    background-color: black;
+}
+
+p {
+    margin: 0;
+}
+
+.main.red-bg.j-c {
+    background: red;
+    justify-content: center;
+}
+
+.main.azure-bg.align-items {
+    background: azure;
+    align-items: center;
+}
+
+.main.green-bg.margin-0 {
+    background-color: green;
+    margin: 0;
+}

@@ -1,0 +1,16 @@
+margin
+width
+height
+background-color
+,min-height
+display,
+justify-content
+,align-items
+position,
+flex-grow,
+padding
+,flex-direction
+flex-basis,
+background,
+max-width, 
+overflow
