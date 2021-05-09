@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Progress Bar Example</title>
+    </head>
+    <body>
+        <p>Пожалуйста, подождите, файлы загружаются.</p>
+        <!-- Progress Bar 
+            http://htmlbook.ru/html/progress 
+            Interesting examples - https://css-tricks.com/html5-progress-element/
+        -->
+        <progress id="progress-bar" max="100" value="0">
+          Загружено на <span id="progress-value">0</span>%
+        </progress>
+
+        <!--
+            Button that triggers progress.
+            http://htmlbook.ru/html/button
+            http://htmlbook.ru/html/attr/onclick
+        -->
+        <button onclick="startProgress()">Start progress</button>
+
+        <script>
+            let progressBar = document.getElementById('progress-bar');
+            let spanValue = document.getElementById('progress-value');
+
+            function startProgress(){
+                // Fix code here. 
+                progressBar.value++;
+                spanValue.innerText = progressBar.value;
+            }
+        </script>
+        <style>
+            #progress-bar {
+                height: 30px;
+            }
+        </style>
+    </body>
+</html>
